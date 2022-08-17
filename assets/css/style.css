@@ -1,0 +1,63 @@
+*, html{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    padding: 8px;
+    background-color: aqua;
+
+}
+h2{
+    padding: 8px;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 4px;
+    margin: 4px, 8px;
+    background-color: aqua;
+}
+nav, a{
+    color: blue;
+    padding: 5px;
+}
+nav, a:hover{
+    color: red;
+}
+section{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+img{ 
+    padding: 10px;
+}
+article{
+    width: 100%;
+    display: block flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+article:first-of-type{
+    width: 100%;
+}
+li, ul{
+    list-style: none;
+}
+@media screen and (max-width:576px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
